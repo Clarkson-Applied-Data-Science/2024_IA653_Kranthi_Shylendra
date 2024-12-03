@@ -34,6 +34,10 @@ Insights into the structure and patterns of emotions in poetry through explorato
 ### Overview of the Dataset
 The dataset for this project is sourced from the HuggingFace library and contains a collection of poems annotated with emotion labels. Each entry in the dataset represents a poem, along with its corresponding emotion and metadata.
 
+### Dataset Link : 
+https://huggingface.co/datasets/Ozziey/poems_dataset
+
+
 ### Key Features:
 
 **Size** : 450 records.
