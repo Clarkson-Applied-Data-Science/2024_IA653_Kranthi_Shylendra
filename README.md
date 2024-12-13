@@ -123,6 +123,9 @@ The N-Gram Model generates poetic text by learning word patterns in the dataset.
 
 The RNN (Recurrent Neural Network) and LSTM (Long Short-Term Memory) models are neural architectures designed to handle sequential data like text. Both models map input sequences (tokenized words) to an embedding space (`embed_size=128`) and process them using hidden layers (`hidden_size=256`). The LSTM model incorporates gating mechanisms to manage long-term dependencies, addressing the vanishing gradient problem inherent in RNNs. Both models predict the next word in a sequence, enabling poetic text generation. The `generate_text` function takes a seed text, generates indices using the trained model, and reconstructs the sequence into words using a vocabulary mapping. These models are more adept than n-grams at capturing global text structure and context.
 
+Below shown is the training and validation loss for RNN and LSTM models
+![alt text](image_9.png)
+
 
 ### Transformer (GPT-2) for Text Generation: 
 
